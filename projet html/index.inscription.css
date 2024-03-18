@@ -1,0 +1,80 @@
+body{
+    background: url(images/Canon_190722_0633.avif);
+    width: 500px;
+    height: 700px;
+    margin: auto;
+}
+h2{
+    font-family:"Crete Round",serif;
+    font-size: 45px;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+a:hover{
+    color: #ff7a00;
+    font-weight: 700;
+}
+.conc{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+.retour{
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.retour a:hover{
+    text-decoration: underline;
+    color: #ff7a00;
+}
+input,textarea,select{
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 200px;
+}
+input[type="reset"]{
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 1px #d83f3d ;
+    cursor: pointer;
+    background-color: #444;
+}
+input[type="submit"]{
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 1px #d83f3d ;
+    cursor: pointer;
+    background-color: #ff7a00;
+}
+:invalid{
+    border-width: 3px;
+    border-color: black;
+}
+:valid{
+    background-color: cornsilk;
+    border-color:#5A5;
+}
+input[type="radio"],input[type="checkbox"]{
+    width: auto;
+}
